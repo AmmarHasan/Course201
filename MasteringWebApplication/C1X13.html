@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    /* for car depending on engine Parent-child injection
+    angular.module('app', ['engines'])
+            .factory('car', function ($log, dieselEngine) {
+                return {
+                    start: function() {
+                        $log.info('Starting ' + dieselEngine.type);
+                    }
+            };
+    });
+    angular.module('engines', [])
+            .factory('dieselEngine', function () {
+                return {
+                    type: 'diesel'
+                };
+            });
+            */
+    /* making 3 different modules and injecting 2 different modules on another sibling module
+    angular.module('app', ['engines', 'cars'])
+    angular.module('cars', [])
+            .factory('car', function ($log, dieselEngine) {
+                return {
+                    start: function() {
+                        $log.info('Starting ' + dieselEngine.type);
+                    }
+                };
+            });
+    angular.module('engines', [])
+            .factory('dieselEngine', function () {
+                return {
+                    type: 'diesel'
+                };
+            });
+            */
+
+    /* injecting a module defined in the same module
+    angular.module('app', ['engines', 'cars'])
+            .controller('AppCtrl', function ($scope, car) {
+                car.start();
+            });
+    angular.module('cars', [])
+            .factory('car', function ($log, dieselEngine) {
+                return {
+                    start: function() {
+                        $log.info('Starting ' + dieselEngine.type);
+                    };
+            }
+    })
+    .factory('dieselEngine', function () {
+        return {
+            type: 'custom diesel'
+        };
+    });
+    */
+</script>
+</body>
+</html>

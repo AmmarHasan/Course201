@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b092d192-009e-460b-a8a1-b4cf962c0910" name="Default" comment="" />
+    <ignored path="MasteringWebApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/C1X1.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386228687923" ignored="false" />
+    <file path="/C1X2.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386228715979" ignored="false" />
+    <file path="/C1X3.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386232395879" ignored="false" />
+    <file path="/C1X4.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386323010803" ignored="false" />
+    <file path="/X1X5.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386325337659" ignored="false" />
+    <file path="/C1X6.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386326826055" ignored="false" />
+    <file path="/C1X7.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386337862929" ignored="false" />
+    <file path="/C1X8.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386341430525" ignored="false" />
+    <file path="/C1X9.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386345850269" ignored="false" />
+    <file path="/C1X10.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386348059197" ignored="false" />
+    <file path="/C1X11.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386348567551" ignored="false" />
+    <file path="/C1X12.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386350851435" ignored="false" />
+    <file path="/C1X13.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386353685183" ignored="false" />
+    <file path="/Class1.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386423696779" ignored="false" />
+    <file path="$PROJECT_DIR$/../DemoNode/App.js" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386431078667" ignored="false" />
+    <file path="/App.js" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386431075476" ignored="false" />
+    <file path="$PROJECT_DIR$/../NodeJsExpress/views/index.ejs" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386433548841" ignored="false" />
+    <file path="/index.ejs" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386433548400" ignored="false" />
+    <file path="$PROJECT_DIR$/../NodeJsExpress/routes/index.js" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386433565537" ignored="false" />
+    <file path="/index.js" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1386433560019" ignored="false" />
+    <file path="/C1X5.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1387014106331" ignored="false" />
+    <file path="/TestMindScrewed.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1387029973469" ignored="false" />
+    <file path="$PROJECT_DIR$/../AngularSirZia14Dec/Example1.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1387029648798" ignored="false" />
+    <file path="/Example1.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1387029620923" ignored="false" />
+    <file path="$PROJECT_DIR$/../AngularSirZia14Dec/Example 2.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1387033428896" ignored="false" />
+    <file path="/Example 2.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1387031189101" ignored="false" />
+    <file path="$PROJECT_DIR$/../AngularSirZia14Dec/Example3.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1387626136909" ignored="false" />
+    <file path="$PROJECT_DIR$/../LearningNode/Example1-2.js" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1387288235204" ignored="false" />
+    <file path="/Example1-2.js" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1387288220649" ignored="false" />
+    <file path="/Class1-NodeJS.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1387625691028" ignored="false" />
+    <file path="/Example3.html" changelist="b092d192-009e-460b-a8a1-b4cf962c0910" time="1387626100394" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="MasteringWebApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="TestMindScrewed.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestMindScrewed.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="28" selection-start="966" selection-end="966" vertical-scroll-proportion="-15.923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C1X4.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C1X4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="82" selection-start="509" selection-end="509" vertical-scroll-proportion="-4.269231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C1X5.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C1X5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="81" selection-start="351" selection-end="359" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C1X6.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C1X6.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="65" selection-start="340" selection-end="340" vertical-scroll-proportion="0.31954888">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMindScrewed2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestMindScrewed2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="21" selection-start="456" selection-end="456" vertical-scroll-proportion="-10.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Class1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="52" selection-start="495" selection-end="495" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Class1-NodeJS.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class1-NodeJS.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="19" selection-start="680" selection-end="680" vertical-scroll-proportion="-15.923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/C1X3.html" />
+        <option value="$PROJECT_DIR$/C1X4.html" />
+        <option value="$PROJECT_DIR$/X1X5.html" />
+        <option value="$PROJECT_DIR$/C1X6.html" />
+        <option value="$PROJECT_DIR$/C1X7.html" />
+        <option value="$PROJECT_DIR$/C1X8.html" />
+        <option value="$PROJECT_DIR$/C1X9.html" />
+        <option value="$PROJECT_DIR$/C1X10.html" />
+        <option value="$PROJECT_DIR$/C1X11.html" />
+        <option value="$PROJECT_DIR$/C1X12.html" />
+        <option value="$PROJECT_DIR$/C1X13.html" />
+        <option value="$PROJECT_DIR$/Class1.html" />
+        <option value="$PROJECT_DIR$/C1X5.html" />
+        <option value="$PROJECT_DIR$/TestMindScrewed.html" />
+        <option value="$PROJECT_DIR$/TestMindScrewed2.html" />
+        <option value="$PROJECT_DIR$/Class1-NodeJS.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MasteringWebApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MasteringWebApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MasteringWebApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.C1X6.html">
+    <configuration default="false" name="C1X6.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" value="file://$PROJECT_DIR$/C1X6.html" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.C1X6.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.C1X6.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b092d192-009e-460b-a8a1-b4cf962c0910" name="Default" comment="" />
+      <created>1386166969247</created>
+      <updated>1386166969247</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30752048" sideWeight="0.6181507" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38184932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/C1X1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1X3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="54" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1X13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="52" selection-start="518" selection-end="518" vertical-scroll-proportion="0.575188" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1X9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.287594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1X10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="51" selection-start="34" selection-end="108" vertical-scroll-proportion="0.03195489" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1X12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="298" selection-end="298" vertical-scroll-proportion="0.31954888" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1X11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="65" selection-end="108" vertical-scroll-proportion="0.03195489" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1X8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="112" selection-end="164" vertical-scroll-proportion="0.15977444" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1X7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="23" selection-start="979" selection-end="979" vertical-scroll-proportion="0.71240604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class1-NodeJS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="19" selection-start="680" selection-end="680" vertical-scroll-proportion="-15.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="52" selection-start="495" selection-end="495" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestMindScrewed2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="21" selection-start="456" selection-end="456" vertical-scroll-proportion="-10.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestMindScrewed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="28" selection-start="966" selection-end="966" vertical-scroll-proportion="-15.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1X4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="82" selection-start="509" selection-end="509" vertical-scroll-proportion="-4.269231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1X5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="81" selection-start="351" selection-end="359" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C1X6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="65" selection-start="340" selection-end="340" vertical-scroll-proportion="0.31954888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/Angular1.0.7.js" ></script>
+    <title>Example 1</title>
+</head>
+<body ng-app='project1'>
+<div ng-controller='controller1'>
+    {{val}}
+</div>
+
+
+<script>
+    var val = 2;
+    angular.module('project1',[])
+
+            .controller('controller1',function($scope,service1){
+                $scope.val = service1.val + 2;
+                console.log("in controller scope: " + $scope.val);
+                console.log("in controller val: " + val);
+            })
+            .factory('service1', function(){
+
+                return {val : val+4};
+            })
+            .run(function(service1){
+                val+=service1.val;
+                console.log("in run service1.val: " + service1.val);
+                console.log("in run val: " + val);
+            })
+            .config(function(){
+                val = val+3;
+                console.log("in config: " + val);
+            })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C1X4 pg 17</title>
+    <script src="js/Angular1.0.7.js" ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body ng-app>
+    <ul ng-controller="worldPop" class="list-group">
+         <li ng-repeat="country in countries" class="list-group-item nav-stacked nav-pills text-warning">
+            {{country.name}} has {{country.population}} million population. {{worldsPercentage(country.population)}}% of Pakistan's Population
+         </li>
+        <hr ><p class="text-center text-info bold">Pakistan's population: {{population}} millions</p>
+    </ul>
+<script>
+     var worldPop = function($scope){
+        $scope.population = 180;
+        $scope.countries = [
+            { name: 'Australia', population: 22.68},
+            { name:'UK', population: 63.23},
+            { name: 'Israel', population: 7.908}
+        ];
+         $scope.worldsPercentage = function (countryPopulation) {
+             return Math.round(countryPopulation / $scope.population*100);
+         }
+    };
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src='angular.js'></script>
+    <script>
+        angular.module('app',[])
+                .controller('ParentCtrl',function($scope){
+                    $scope.name="Parent";
+                    /*Reset Broadcast Fire to child*/
+                    $scope.reset=function(){
+                        $scope.name='Parent';
+                        $scope.$broadcast('resetName',"");
+                    }
+                    /*Broadcast Fire to child*/
+                    $scope.onBtnClick=function(){
+                       $scope.$broadcast('eventBroadcast',$scope.name)
+                    };
+                    /*Emit Listener from child*/
+                    $scope.$on("eventEmit1",function(event,string){
+                        $scope.name=string;
+                    })
+
+                    /*Emit Listener from Sub child*/
+                    $scope.$on("eventEmit2",function(event,string){
+                        $scope.name=string;
+                    })
+
+        })
+                .controller('ChildCtrl',function($scope){
+                    $scope.name="Child";
+                    /* Reset Broadcast Listener from parent*/
+                    $scope.$on('resetName',function(event,string){
+                        $scope.name='Child';
+                    })
+                    /*Broadcast Listener from parent*/
+                    $scope.$on('eventBroadcast',function(event,string){
+                    $scope.name=string;
+                    })
+                    /*Emit Fire to Parent*/
+                   $scope.onEmitBtnClick=function(){
+                    $scope.$emit('eventEmit1',$scope.name);
+                   }
+                    /*Emit Listener from Sub child*/
+                    $scope.$on("eventEmit2",function(event,string){
+                        $scope.name=string;
+                    })
+        })
+                .controller('SubChildCtrl',function($scope){
+                    $scope.name="SubChild";
+                    /* Reset Broadcast Listener from parent*/
+                    $scope.$on('resetName',function(event,string){
+                        $scope.name='SubChild';
+                    })
+                    /*Broadcast Listener Parent*/
+                    $scope.$on('eventBroadcast',function(event,string){
+                        $scope.name=string;
+                    })
+                    /*Emit Fire to child & Parent*/
+                    $scope.onEmitBtn2Click=function(){
+                        $scope.$emit('eventEmit2',$scope.name);
+                    }
+
+
+                })
+    </script>
+
+</head>
+<body ng-app="app">
+
+<div ng-controller='ParentCtrl'>
+   <h3>Parent:</h3> {{name}}<button ng-click="onBtnClick()">Broadcast Button</button><input ng-model='name'>
+    <hr>
+    <div ng-controller='ChildCtrl'>
+        <h3>Child:</h3>{{name}}<button ng-click="onEmitBtnClick()">Emit Button</button><input ng-model='name'>
+        <hr>
+        <div ng-controller='SubChildCtrl'>
+            <h3>Sub-Child:</h3>{{name}}<button ng-click="onEmitBtn2Click()">Emit Button</button><input ng-model='name'>
+            <hr>
+        </div>
+        <button ng-click='reset()'> RESET</button>
+    </div>
+</div>
+</body>
+</html>

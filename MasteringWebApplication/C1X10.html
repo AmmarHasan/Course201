@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C1X10 pg 31</title>
+    <script src="js/Angular1.0.7.js" ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<script>
+    myMod = angular.module('myMod',[]);
+    myMod.constant('MAX_LEN', 10);
+    myMod.factory('notificationsService',function(notificationsArchive){
+        var notifications = [];
+        return {
+            push:function (notification) {
+                var notificationToArchive;
+                var newLen = notifications.unshift(notification);
+//push method can rely on the closure scope now!
+                if (newLen > MAX_LEN) {
+                    notificationToArchive = this.notifications.pop();
+                    notificationsArchive.archive(notificationToArchive);
+                }
+            }
+// other methods of the NotificationsService
+        };
+    });
+</script>
+</body>
+</html>

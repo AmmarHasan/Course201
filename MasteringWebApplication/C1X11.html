@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C1X11 pg 32</title>
+    <script src="js/Angular1.0.7.js" ></script>
+</head>
+<body>
+   <script>
+       var myMod = angular.module('myMod',[]);
+       myMod.provider('notificationsService', function () {
+           var config = {
+               maxLen : 10
+           };
+           var notifications = [];
+
+           return {
+               setMaxLen : function(maxLen) {
+                   config.maxLen = maxLen || config.maxLen;
+               },
+               $get : function(notificationsArchive) {
+                   return {
+                       push:function (notification) {
+                           //some code
+                           var notificationToArchive;
+                           var newLen = notifications.unshift(notification);
+
+                            if (newLen > config.maxLen) {
+                                //code
+                                notificationToArchive = this.notifications.pop();
+                                notificationsArchive.archive(notificationToArchive);
+                            }
+                       }
+                    // other methods go here
+                   };
+               }
+           };
+       });
+   </script>
+</body>
+</html>

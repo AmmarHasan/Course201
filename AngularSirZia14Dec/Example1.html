@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/Angular1.0.7.js" ></script>
+    <title>Example 1</title>
+</head>
+<body ng-app="hello">
+<div ng-controller='myControl'>
+    <!--<input type="text" ng-model="name"> -->
+    <br>
+    <h1 >
+        {{name.p1}}<br>
+        {{name}}  <br>
+        {{name.p2}}   <br>
+        {{array}}    <br>
+        {{func(array)()}} <br>
+        {{func2()}}
+
+    </h1>
+</div>
+<script>
+    angular.module('hello',[])
+            .controller('myControl',function($scope){
+                /* $scope.name = {
+                     p1 : "Furqan",
+                     p2 : "Faizan"
+                 };
+                $scope.array = ["Banana" , "Orange", "Mango", "Guava"];
+                *//*$scope.func = function(scope) {
+                      return function(scope){
+                          return scope.join();
+                      }
+                }*//*
+                $scope.func2 = function(){
+                    return   $scope.array.join();
+                }*//*Dummy comment*/
+            })
+            .service('service1',function(){
+
+            })
+</script>
+</body>
+</html>

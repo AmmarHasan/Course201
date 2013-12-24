@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/Angular1.0.7.js" ></script>
+    <title>Example 1</title>
+</head>
+<body ng-app='project1'>
+<div ng-controller='controller1'>
+    {{a}}
+</div>
+<div ng-controller='controller2'>
+    <h1>$rootScope.a = {{a}}</h1>
+</div>
+<script>
+    a=2;
+    angular.module('project1',[])
+        .controller('controller1',function($scope,$rootScope){
+            $rootScope.a = a+2;
+            $scope.a= $rootScope.a+8;
+            $rootScope.a = $scope.a+5;
+            console.log($scope.a);
+            console.log($rootScope.a);
+            //a = 5;
+            console.log(a);
+        }).controller('controller2', function($scope, $rootScope){
+
+            });
+</script>
+
+</body>
+</html>

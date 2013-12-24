@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C1X6 pg 19</title>
+    <script src="js/Angular1.0.7.js" ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body ng-app ng-init="thing={name:'World'}">
+<h1>hello, {{thing.name}}</h1>
+<div ng-controller="HelloCtrl">
+    Say hello to: <input type="text" ng-model="thing.name">
+    <p> How are you, {{thing.name}}</p>
+</div>
+<script>
+    HelloCtrl = function($scope){
+    };
+</script>
+</body>
+</html>

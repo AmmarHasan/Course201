@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C1X6 pg 23</title>
+    <script src="js/Angular1.0.7.js" ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body ng-app>
+<div ng-controller="TextAreaWithLimitCtrl" class="row container">
+    <span ng-class="{'text-warning' : shouldWarn()}">{{remaining()}}</span>
+    <textarea ng-model="message">{{message}}</textarea>
+</div>
+<div class="container center-block" ng-controller="ButtonCtrl">
+    <button ng-disabled="hasValidLength()" ng-click="send()" class="btn btn-primary">Send</button>
+    <button ng-click="clear()" class="btn btn-info">Clear</button>
+</div>
+<script>/* incomplete example in book, it moved on to modules
+        Do it later on...*/
+    var TextAreWithLimitCtrl = function($scope){
+        return MAX_LEN - $scope.message.legth;
+    }
+
+    var ButtonCtrl = function($scope){
+        var $scope.shouldWarn = function () {
+            return $scope.remaining() < WARN_THRESHOLD;
+        };
+    }
+</script>
+</body>
+</html>

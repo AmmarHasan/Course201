@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C1X12 pg 34</title>
+    <script src="js/Angular1.0.7.js" ></script>
+</head>
+<body ng-app='upTimeApp'>
+    <p>Appstarted at {{appStarted}}</p>
+       <script>
+           angular.module('upTimeApp', []).run(function($rootScope) {
+               $rootScope.appStarted = new Date();
+           });
+       </script>
+</body>
+</html>

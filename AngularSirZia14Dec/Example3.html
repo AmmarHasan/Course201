@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/Angular1.0.7.js" ></script>
+    <title>Example 1</title>
+</head>
+<body ng-app="testEvent">
+<div ng-controller="ParentCtrl">
+    <p>{{foo}}</p>
+    <div ng-controller="ChildCtrl">
+        <button ng-click="onButtonClick()">{{buttonTitle}}</button>
+        <p>{{doo}}</p>
+    </div>
+    <div ng-controller="Sotela">
+        <h1>{{doo}}</h1>
+    </div>
+</div>
+
+
+<script>
+    angular.module('testEvent',[])
+            .controller('ParentCtrl',function($scope){
+        $scope.foo = "Hello";
+
+        //Emit to Parent example part 2
+        $scope.$on("UPDATE_PARENT", function(event, message){
+                $scope.foo = message;
+                console.log("I BroadCasted");
+                $scope.$broadcast("RESPOND_CHILD","GOT");
+            })
+        })
+        .controller('ChildCtrl',function($scope){
+            $scope.buttonTitle = "Update Parent";
+            $scope.doo = "Sample";
+            $scope.onButtonClick = function(){
+                    //Emit to Parent example part 1
+                    this.$emit("UPDATE_PARENT", "Updated");
+                };
+            $scope.$on("RESPOND_CHILD", function(event, message){
+                     $scope.doo = message;
+                })
+             })
+            .controller('Sotela',function($scope){
+                $scope.$on("RESPOND_CHILD", function(event, message){
+                    $scope.doo = message;
+                })
+            });
+
+</script>
+</body>
+</html>

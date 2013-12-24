@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C1X3 pg 14</title>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js"></script>-->
+    <script src="js/Angular1.0.7.js" ></script>
+    <script>
+         H1Ctrl = function($scope)
+         {
+             return $scope.getName = function(){
+                 return $scope.name;
+             }
+         }
+    </script>
+</head>
+<body ng-app ng-controller="H1Ctrl">
+
+    <h1>Hello, {{getName()}}!</h1>
+    <form> <label title="Your Text" />
+        <input type="text" ng-model="name">
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C1X9 pg 28</title>
+    <script src="js/Angular1.0.7.js" ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<script>
+    var myMod  = angular.module('myMod',[]);
+    myMod.service('notificationArchive',NotificationsArchive());
+    var NotificationsService = function (notificationsArchive){
+        this.NotificationsArchive = notificationsArchive;
+    };
+
+</script>
+</body>
+</html>

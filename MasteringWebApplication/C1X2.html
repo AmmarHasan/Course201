@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C2X2 pg 13</title>
+    <script src="js/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body ng-app>
+    <div ng-app ng-controller="HelloCtrl" class="alert">
+        <input type="text" ng-model="name" class="text-success">
+        <p class="text-center text-info"> hello, {{name}} !</p>
+    </div>
+    <script>
+        var HelloCtrl = function ($scope) {
+            $scope.name = 'World';
+        }
+    </script>
+</body>
+</html>

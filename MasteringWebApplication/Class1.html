@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>Class-I E.G-I</title>
+    <script src="js/Angular1.0.7.js" ></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        span{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+<div ng-controller="myCtrl" class="container">
+    <!--<h1>Welcome {{name}}</h1>
+    <input class="img-rounded text-info" type="text" ng-model="name">
+    <p>{{country.name}}</p>
+    <input class="img-rounded text-info" ng-model="country.name">
+    <p>{{country.name|uppercase}}</p>
+    <p>{{rupee|currency}}</p>
+    <p>{{country|json}}</p>
+    <ul ng-repeat="fruit in fruits">
+        <li>{{fruit.name}} price is {{fruit.price|currency}}</li>
+
+    </ul>
+    -->
+    <!--
+    <div ng-repeat="fruit in fruits">
+        <p>{{fruit.name}}</p><span>Quantity: <input type="number" ng-model="quantity"> </span>
+        <p>{{fruit.price*quantity|currency}}</p>
+    </div>
+
+    <p ng-show="myValue">{{myValue}}</p>
+    <input ng-model="myValue" class ="img-rounded text-info">-->
+    <div ng-repeat="fruit in fruits">
+        <p class="text-primary">{{fruit.name}}</p>
+        <span>
+            <button class="btn btn-danger" ng-click="remove($index)">Remove</button>
+        </span>
+    </div>
+
+</div>
+</body>
+<script>
+    myCtrl = function($scope){
+        $scope.name='Anonymous';
+        $scope.country= { name:'pakistan'};
+        $scope.rupee = 100;
+        $scope.quantity = 1;
+        $scope.fruits = [
+            {name:"Banana" , price:50},
+            {name:"Mango" , price: 100},
+            {name:"Chiku" , price:99 }];
+        $scope.myValue = null;
+        $scope.remove = function(i){
+              $scope.fruits.splice(i,1);
+        }
+    };
+</script>
+</html>
