@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>Directive 2</title>
+    <script src="lib/angular/angular.min.js" type="text/javascript"></script>
+</head>
+<body ng-controller="myCtrl">
+<ul>
+    <li>
+        {{event.name}}
+    </li>
+    <li ng-bind="event.name">
+    </li>
+    <li>
+        {{event.date}}
+    </li>
+    <li ng-bind="event.date">
+        {{event.name}}
+    </li>
+    <li ng-bind-template="{{event.date}} {{event.name}}">
+    </li>
+    <li ng-bind-template="{{event.date}} {{event.name}}">
+        This has over written
+    </li>
+
+</ul>
+<div ng-controller="Ctrl">
+    Enter name: <input type="text" ng-model="name"><br>
+    Hello <span ng-bind="name"></span>!
+</div>
+
+<script>
+    function myCtrl($scope){
+        $scope.event = {
+            name:"Angular Boot Camp",
+            date: "25-Dec-2013"
+        };
+    }
+
+    function Ctrl($scope) {
+        $scope.name = 'Whirled';
+    }
+</script>
+</body>
+</html>

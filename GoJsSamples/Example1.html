@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <script type="text/javascript" src="javascripts/lib/go.js"></script>
+    <!--<script type="text/javascript"></script>-->
+    <script type="text/javascript" src="javascripts/Example1.js"></script>
+    <script>
+        function goIntro(){
+            var $ = go.GraphObject.make; // for conciseness In defining templates
+
+            var diagram = new go.Diagram("myDiagramDiv");
+            diagram.InitialContentAlugnment = go.Spot.Center;
+
+            // define a simple Node Template but use the default Link template
+            diagram.nodeTemplate =
+                    $(go.Node, go.Panel.Auto,
+                        $(go.Shape,
+                                { figure:"RoundedRectangle" },
+                                //Shape.fill is bound to Node.data.color
+                                new go.Binding("fill","color")),
+                        $(go.TextBlock,
+                                {margin:3},// some room around the text
+                                //TextBlock.text is bound to Node.data.Key
+                                new go.Binding("text","key")));
+
+            var nodeDataArray = [ // a JavaScript Array of JavaScript objects, one per node
+                        { key: "Alpha", color: "LightBlue" },
+                        { key: "Beta", color: "Orange" },
+                        { key: "Gamma", color: "LightGreen" },
+                        { key: "Delta", color: "Pink" }
+                    ];
+
+            var linkDataArray = [ // a JavaScript Array of JavaScript objects, one per link
+                { from: "Alpha", to: "Beta" },
+                { from: "Alpha", to: "Gamma" },
+                { from: "Beta", to: "Beta" },
+                { from: "Gamma", to: "Delta" },
+                { from: "Delta", to: "Alpha" }
+            ];
+            diagram.model = new go.GraphLinksModel(nodeDataArray,linkDataArray);
+        }
+    </script>
+</head>
+<body onload="goIntro()">
+    <div id="myDiagramDiv" style="border:solid 1px blue;
+    width:400px; height:300px"></div>
+</body>
+</html>
